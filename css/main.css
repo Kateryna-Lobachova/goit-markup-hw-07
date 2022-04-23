@@ -115,8 +115,7 @@ section {
   cursor: pointer;
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
+.modal-close-btn:hover, .modal-close-btn:focus {
   fill: var(--accent-color);
 }
 
@@ -134,33 +133,6 @@ section {
 .modal-form-svg {
   position: relative;
   margin-bottom: 10px;
-}
-
-.form-icon-name {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 12px;
-  height: 12px;
-}
-
-.form-icon-tel {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 12px;
-  height: 12px;
-}
-
-.form-icon-mail {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 15px;
-  height: 12px;
 }
 
 .modal-form-label {
@@ -182,40 +154,17 @@ section {
   border-color: var(--accent-color);
 }
 
+.form-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  width: 12px;
+  height: 12px;
+}
+
 .modal-form-input:focus + .form-icon {
   fill: var(--accent-color);
-}
-
-.modal-form-svg {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.form-icon-name {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 12px;
-  height: 12px;
-}
-
-.form-icon-tel {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 12px;
-  height: 12px;
-}
-
-.form-icon-mail {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 14px;
-  width: 15px;
-  height: 12px;
 }
 
 .modal-form-feedback {
@@ -290,8 +239,7 @@ section {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background: var(--modal-button-hover-color);
 }
 
