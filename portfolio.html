@@ -21,24 +21,24 @@
 
 <body>
     <!--HEADER-->
-    <header class="page-header">
-        <div class="container header-container">
+    <header class="header">
+        <div class="container header__container">
             <nav class="navigation">
-                <a class="logo link" href=""><span class="web">Web</span>Studio</a>
-                <ul class="nav list">
-                    <li class="nav-list-item"><a class="nav-list link" href="index.html">Студия</a></li>
-                    <li class="nav-list-item"><a class="nav-list current link" href="portfolio.html">Портфолио</a></li>
-                    <li class="nav-list-item"><a class="nav-list link" href="">Контакты</a></li>
+                <a class="logo link" href=""><span class="logo__web">Web</span>Studio</a>
+                <ul class="nav-list list">
+                    <li class="nav-list__item"><a class="nav-list__link link" href="index.html">Студия</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link link current" href="portfolio.html">Портфолио</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
     
             <ul class="contact list">
-                <li class="contact-list"><a class="contact-list-link link" href="mailauth-navto:info@devstudio.com">
+                <li class="contact-list"><a class="contact-list__link link" href="mailauth-navto:info@devstudio.com">
                         <svg class="nav-list-icon" width="16" height="12">
                             <use href="./img/sprite/symbol-defs.svg#envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li class="contact-list"><a class="contact-list-link link" href="tel:+380961111111">
+                <li class="contact-list"><a class="contact-list__link link" href="tel:+380961111111">
                         <svg class="nav-list-icon" width="10" height="16">
                             <use href="./img/sprite/symbol-defs.svg#phone"></use>
                         </svg>+38 096 111 11 11</a>
@@ -52,99 +52,99 @@
         <section class="portfolio">
             <div class="port-div container">
             <h2 hidden>Услуги</h2>
-            <ul class="btn-port list">
-                <li class="btn-li"><button class="filter-btn" type="button">Все</button></li>
-                <li class="btn-li"><button class="filter-btn" type="button">Веб-сайты</button></li>
-                <li class="btn-li"><button class="filter-btn" type="button">Приложения</button></li>
-                <li class="btn-li"><button class="filter-btn" type="button">Дизайн</button></li>
-                <li class="btn-li"><button class="filter-btn" type="button">Маркетинг</button></li>
+            <ul class="portfolio-menu list">
+                <li class="portfolio-menu__item"><button class="portfolio-btn" type="button">Все</button></li>
+                <li class="portfolio-menu__item"><button class="portfolio-btn" type="button">Веб-сайты</button></li>
+                <li class="portfolio-menu__item"><button class="portfolio-btn" type="button">Приложения</button></li>
+                <li class="portfolio-menu__item"><button class="portfolio-btn" type="button">Дизайн</button></li>
+                <li class="portfolio-menu__item"><button class="portfolio-btn" type="button">Маркетинг</button></li>
             </ul>
             
 
             
             <ul class="filter list">
-                <li class="filter-list">
-                     <a class="filter-link link" href=""> <div
-                            class="filter-list-overlay"><img class="filter-img" src="./img/portfolio/img-1.jpg"
+                <li class="filter__list">
+                     <a class="filter__link link" href=""> <div
+                            class="filter__link-overlay"><img class="filter-img" src="./img/portfolio/img-1.jpg"
                                 alt="ноутбук" width="370" height="294"><p class="overlay">
                                  Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
                                  Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
                                </p>
                              </div> 
-                             <div class="filter-div">
+                             <div class="filter__link-wrapper">
                                  <h3 class="filter-subtitle">Технокряк</h3> 
                                  <p class="filter-descript">Веб-сайт</p> 
                             </div>
                     </a> 
                             </li>
 
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-2.jpg" alt="играют в баскетболл" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Постер New Orlean vs Golden Star</h3>
                     <p class="filter-descript">Дизайн</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-3.jpg" alt="логотип рыба" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Ресторан Seafood</h3>
                     <p class="filter-descript">Приложение</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-4.jpg" alt="черные наушники" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Проект Prime</h3>
                     <p class="filter-descript">Маркетинг</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-5.jpg" alt="две коробки" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Проект Boxes</h3>
                     <p class="filter-descript">Приложение</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-6.jpg" alt="монитор" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Inspiration has no Borders</h3>
                     <p class="filter-descript">Веб-сайт</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-7.jpg" alt="открытая книга" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Издание Limited Edition</h3>
                     <p class="filter-descript">Дизайн</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-8.jpg" alt="бирка с логотипом" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Проект LAB</h3>
                     <p class="filter-descript">Маркетинг</p>
                     </div>
                  </a>
                 </li>
-                <li class="filter-list">
-                 <a class="filter-link link" href="">
+                <li class="filter__list">
+                 <a class="filter__link link" href="">
                     <img class="filter-img" src="./img/portfolio/img-9.jpg" alt="руки на клавиатуре ноутбука" width="370" height="294">
-                    <div class="filter-div">
+                    <div class="filter__link-wrapper">
                     <h3 class="filter-subtitle">Growing Business</h3>
                     <p class="filter-descript"> Приложение</p>
                     </div>
@@ -159,41 +159,41 @@
     </main>
 
 <!--FOOTER-->
-<footer class="adress">
-    <div class="footer-div container">
-        <div class="footer-adress-list">
-            <a class="logo-footer link" href=""><span class="web">Web</span>Studio</a>
+<footer class="footer">
+    <div class="footer-container container">
+        <div class="footer-adress">
+            <a class="logo-footer link" href=""><span class="logo__web">Web</span>Studio</a>
             <address>
-                <ul class="adress-list list">
-                    <li class="adress-li"><a class="adress-list-map link" href=https://goo.gl/maps/yRMNTz1SN8P2guTi6
+                <ul class="footer-adress__list list">
+                    <li class="adress-li"><a class="footer-adress__list-map link" href=https://goo.gl/maps/yRMNTz1SN8P2guTi6
                             target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="adress-li"><a class="adress-list-contact link"
+                    <li class="adress-li"><a class="footer-adress__list-contact link"
                             href=mailto:info@example.com>info@example.com</a></li>
-                    <li class="adress-li"><a class="adress-list-contact link" href=tel:+380991111111>+38 099 111 11
+                    <li class="adress-li"><a class="footer-adress__list-contact link" href=tel:+380991111111>+38 099 111 11
                             11</a></li>
                 </ul>
             </address>
         </div>
-        <div class="footer-list">
-            <p class="footer-post" lang="en">Присоединяйтесь</p>
+        <div class="footer-soc-div">
+            <p class="footer-soc-div__post" lang="en">Присоединяйтесь</p>
             <ul class="footer-soc-list list">
-                <li class="footer-soc-list-item"><a class="footer-soc-list-link" href="#">
-                        <svg width="20" height="20" class="footer-soc-list-icon">
+                <li class="footer-soc-list__item"><a class="footer-soc-list__link" href="#">
+                        <svg width="20" height="20" class="footer-soc-list__icon">
                             <use href="./img/sprite/symbol-defs.svg#instagram"></use>
                         </svg>
                     </a></li>
-                <li class="footer-soc-list-item"><a class="footer-soc-list-link" href="#">
-                        <svg width="20" height="20" class="footer-soc-list-icon">
+                <li class="footer-soc-list__item"><a class="footer-soc-list__link" href="#">
+                        <svg width="20" height="20" class="footer-soc-list__icon">
                             <use href="./img/sprite/symbol-defs.svg#twitter"></use>
                         </svg>
                     </a></li>
-                <li class="footer-soc-list-item"><a class="footer-soc-list-link" href="#">
-                        <svg width="20" height="20" class="footer-soc-list-icon">
+                <li class="footer-soc-list__item"><a class="footer-soc-list__link" href="#">
+                        <svg width="20" height="20" class="footer-soc-list__icon">
                             <use href="./img/sprite/symbol-defs.svg#facebook"></use>
                         </svg>
                     </a></li>
-                <li class="footer-soc-list-item"><a class="footer-soc-list-link" href="#">
-                        <svg width="20" height="20" class="footer-soc-list-icon">
+                <li class="footer-soc-list__item"><a class="footer-soc-list__link" href="#">
+                        <svg width="20" height="20" class="footer-soc-list__icon">
                             <use href="./img/sprite/symbol-defs.svg#linkedin"></use>
                         </svg>
                     </a>
@@ -201,9 +201,9 @@
             </ul>
         </div>
         <div class="footer-form">
-            <p class="footer-post">Подпишитесь на рассылку</p>
-            <form class="footer-form-wrapper">
-                <input class="footer-form-send" type="email" placeholder="E-mail">
+            <p class="footer-soc-list__post">Подпишитесь на рассылку</p>
+            <form class="footer-form__wrapper">
+                <input class="footer-form__wrapper-send" type="email" placeholder="E-mail">
 
                 <button class="footer-form-btn" type="submit">
                     <span class="footer-form-btn-text">Подписаться</span>
